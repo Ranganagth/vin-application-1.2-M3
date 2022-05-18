@@ -21,14 +21,7 @@ public class User {
 	public void setTimestamp(String timestamp) {
 		this.timestamp = timestamp;
 	}
-	public User(String vin, String verified, int speed, String alert,String timeStamp) {
-	super();
-	this.vin = vin;
-	this.verified = verified;
-	this.speed = speed;
-	this.alert = alert;
-	this.timestamp = timeStamp;
-	}
+
 	public String getVin() {
 		return vin;
 	}
