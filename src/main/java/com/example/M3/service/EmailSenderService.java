@@ -12,7 +12,8 @@ public class EmailSenderService {
 		SimpleMailMessage message = new SimpleMailMessage();
 		try {
 			message.setFrom("vasadioffical@gmail.com");//Set Mail id in application.propertied
-			message.setTo("niranjan.vasadi@gmail.com"); //Mention User mail id to sent mail
+			message.setTo("ranganathv415@gmail.com");
+			//message.setTo("niranjan.vasadi@gmail.com"); //Mention User mail id to sent mail
 			message.setText(body);
 			message.setSubject("Warning For OverSpeed");
 			mailSender.send(message);
